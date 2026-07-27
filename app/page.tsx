@@ -104,7 +104,7 @@ export default function Home() {
               juniors, or exploring the intersection of design and engineering.
             </p>
           </div>
-          <div className=" flex justify-center items-center align-center gap-4">
+          <div className=" flex justify-center items-center align-center gap-4 mb-12">
             <div>
               <p className="text-lg mb-4 border-2 border-gray-300 rounded-lg p-4">
                 5 +{" "}
@@ -132,6 +132,85 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="flex justify-center items-center align-center gap-24 mb-12 flex-wrap border-2 border-gray-300 rounded-lg w-full p-6">
+        <p className="text-lg mb-4 flex flex-col justify-center items-center align-center">
+          <span className="font-bold text-blue-500">80 +</span> projects
+          completed
+        </p>
+        <p className="text-lg mb-4 flex flex-col justify-center items-center align-center">
+          <span className="font-bold text-blue-500">40 +</span> happy clients
+        </p>
+        <p className="text-lg mb-4 flex flex-col justify-center items-center align-center">
+          <span className="font-bold text-blue-500">5 +</span> years of
+          experience
+        </p>
+        <p className="text-lg mb-4 flex flex-col justify-center items-center align-center">
+          <span className="font-bold text-blue-500">1200 +</span> github
+          contributions
+        </p>
+      </div>
+      <div className="tools">
+        <div>
+          <h2 className="text-2xl font-bold mb-4">Tools of the trade.</h2>
+          <p className="text-lg mb-4">
+            I use a variety of tools and technologies to build modern web
+            applications.
+          </p>
+        </div>
+        <div className="flex justify-center items-center align-center gap-24 mb-12 flex-wrap w-full">
+          <div className="bg-gray-200 text-gray-800 px-4 py-2 rounded w-1/4 ">
+            <h3>Frontend</h3>
+            <p className=" px-4 py-2">React</p>
+            <p className="px-4 py-2">Next.js</p>
+            <p className=" px-4 py-2 ">TypeScript</p>
+            <p className=" px-4 py-2">JavaScript</p>
+            <p className=" px-4 py-2">HTML5</p>
+            <p className=" px-4 py-2">CSS3</p>
+          </div>
+          <div className="bg-gray-200 text-gray-800 px-4 py-2 rounded w-1/4">
+            <h3>Backend</h3>
+            <p className=" px-4 py-2">Node.js</p>
+            <p className=" px-4 py-2">Express</p>
+            <p className=" px-4 py-2 ">MongoDB</p>
+            <p className=" px-4 py-2 ">PostgreSQL</p>
+          </div>
+          <div className="bg-gray-200 text-gray-800 px-4 py-2 rounded w-1/4">
+            <h3>Stylling</h3>
+            <p className="px-4 py-2 ">Tailwind CSS</p>
+            <p className="px-4 py-2 ">Bootstrap</p>
+            <p className="px-4 py-2 ">Material UI</p>
+          </div>
+          <div className="bg-gray-200 text-gray-800 px-4 py-2 rounded w-1/4">
+            <h3>Version Control</h3>
+            <p className="px-4 py-2 ">Git</p>
+            <p className="px-4 py-2 ">GitHub</p>
+            <p className="px-4 py-2 ">GitLab</p>
+          </div>
+          <div className="bg-gray-200 text-gray-800 px-4 py-2 rounded w-1/4">
+            <h3>Deployment</h3>
+            <p className="px-4 py-2 ">Vercel</p>
+            <p className="px-4 py-2 ">Netlify</p>
+          </div>
+          {/* <div className="bg-gray-200 text-gray-800 px-4 py-2 rounded w-1/4">
+            <h3>Testing</h3>
+            <p className="px-4 py-2 ">Jest</p>
+            <p className="px-4 py-2 ">React Testing Library</p>
+            <p className="px-4 py-2 ">Cypress</p>
+          </div>
+          <div className="bg-gray-200 text-gray-800 px-4 py-2 rounded w-1/4">
+            <h3>CI/CD</h3>
+            <p className="px-4 py-2 ">GitHub Actions</p>
+            <p className="px-4 py-2 ">CircleCI</p>
+            <p className="px-4 py-2 ">Travis CI</p>
+          </div>
+          <div className="bg-gray-200 text-gray-800 px-4 py-2 rounded w-1/4">
+            <h3>Cloud Services</h3>
+            <p className="px-4 py-2 ">AWS</p>
+            <p className="px-4 py-2 ">Google Cloud</p>
+            <p className="px-4 py-2 ">Azure</p>
+          </div> */}
         </div>
       </div>
     </div>
