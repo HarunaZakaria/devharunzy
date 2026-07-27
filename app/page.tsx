@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-12">
+    <div className="flex min-h-screen flex-col items-center justify-between  pt-24 ">
       {/* Header */}
       <div className="header flex  justify-between w-full">
         <div className="logo">
@@ -151,7 +151,7 @@ export default function Home() {
           contributions
         </p>
       </div>
-      <div className="tools">
+      <div className="flex justify-between w-full mt-12 mb-24 flex-col">
         <div>
           <h2 className="text-2xl font-bold mb-4">Tools of the trade.</h2>
           <p className="text-lg mb-4">
@@ -159,8 +159,8 @@ export default function Home() {
             applications.
           </p>
         </div>
-        <div className="flex justify-center items-center align-center gap-24 mb-12 flex-wrap w-full">
-          <div className="bg-gray-200 text-gray-800 px-4 py-2 rounded w-1/4 ">
+        <div className="flex flex-wrap w-full gap-4 justify-around items-center align-center">
+          <div className="w-1/3 p-4  bg-gray-200 text-gray-800 rounded">
             <h3>Frontend</h3>
             <p className=" px-4 py-2">React</p>
             <p className="px-4 py-2">Next.js</p>
@@ -169,26 +169,26 @@ export default function Home() {
             <p className=" px-4 py-2">HTML5</p>
             <p className=" px-4 py-2">CSS3</p>
           </div>
-          <div className="bg-gray-200 text-gray-800 px-4 py-2 rounded w-1/4">
+          <div className="w-1/3 p-4  bg-gray-200 text-gray-800 rounded">
             <h3>Backend</h3>
             <p className=" px-4 py-2">Node.js</p>
             <p className=" px-4 py-2">Express</p>
             <p className=" px-4 py-2 ">MongoDB</p>
             <p className=" px-4 py-2 ">PostgreSQL</p>
           </div>
-          <div className="bg-gray-200 text-gray-800 px-4 py-2 rounded w-1/4">
-            <h3>Stylling</h3>
+          <div className="w-1/3 p-4  bg-gray-200 text-gray-800 rounded">
+            <h3>Styling</h3>
             <p className="px-4 py-2 ">Tailwind CSS</p>
             <p className="px-4 py-2 ">Bootstrap</p>
             <p className="px-4 py-2 ">Material UI</p>
           </div>
-          <div className="bg-gray-200 text-gray-800 px-4 py-2 rounded w-1/4">
+          <div className="w-1/3 p-4  bg-gray-200 text-gray-800 rounded">
             <h3>Version Control</h3>
             <p className="px-4 py-2 ">Git</p>
             <p className="px-4 py-2 ">GitHub</p>
             <p className="px-4 py-2 ">GitLab</p>
           </div>
-          <div className="bg-gray-200 text-gray-800 px-4 py-2 rounded w-1/4">
+          <div className="w-1/3 p-4  bg-gray-200 text-gray-800 rounded">
             <h3>Deployment</h3>
             <p className="px-4 py-2 ">Vercel</p>
             <p className="px-4 py-2 ">Netlify</p>
@@ -213,6 +213,124 @@ export default function Home() {
           </div> */}
         </div>
       </div>
+      <div className="completed-projects">
+        <h2 className="text-2xl font-bold mb-4">Selected projects.</h2>
+        <p className="text-lg mb-4">
+          A curated selection of recent work spanning startups, indie products
+          and open source.
+        </p>
+      </div>
+      <div className="flex flex-wrap w-full gap-4 justify-center flex-wrap items-center align-center">
+        <div className="p-4  bg-gray-200 text-gray-800 rounded">
+          <Image
+            src="/haruna.jpeg"
+            alt="Project 6"
+            width={200}
+            height={200}
+            className="rounded-lg"
+          />
+          <h3>Project 1</h3>
+          <p className="px-4 py-2 ">Description of project 1</p>
+          <p className="flex gap-2">
+            <span>React</span> <span>Next.js</span>
+          </p>
+          <p className="flex gap-2">
+            <span>GitHub</span> <span>Live</span>
+          </p>
+        </div>
+        <div className="p-4  bg-gray-200 text-gray-800 rounded">
+          <Image
+            src="/haruna.jpeg"
+            alt="Project 6"
+            width={200}
+            height={200}
+            className="rounded-lg"
+          />
+          <h3>Project 2</h3>
+          <p className="px-4 py-2 ">Description of project 2</p>
+          <p className="flex gap-2">
+            <span>React</span> <span>Next.js</span>
+          </p>
+          <p className="flex gap-2">
+            <span>GitHub</span> <span>Live</span>
+          </p>
+        </div>
+        <div className=" p-4  bg-gray-200 text-gray-800 rounded">
+          <Image
+            src="/haruna.jpeg"
+            alt="Project 6"
+            width={200}
+            height={200}
+            className="rounded-lg"
+          />
+          <h3>Project 3</h3>
+          <p className="px-4 py-2 ">Description of project 3</p>
+          <p className="flex gap-2">
+            <span>React</span> <span>Next.js</span>
+          </p>
+          <p className="flex gap-2">
+            <span>GitHub</span> <span>Live</span>
+          </p>
+        </div>
+        <div className="p-4  bg-gray-200 text-gray-800 rounded">
+          <Image
+            src="/haruna.jpeg"
+            alt="Project 6"
+            width={200}
+            height={200}
+            className="rounded-lg"
+          />
+          <h3>Project 4</h3>
+          <p className="px-4 py-2 ">Description of project 4</p>
+          <p className="flex gap-2">
+            <span>React</span> <span>Next.js</span>
+          </p>
+          <p className="flex gap-2">
+            <span>GitHub</span> <span>Live</span>
+          </p>
+        </div>
+        <div className="p-4  bg-gray-200 text-gray-800 rounded">
+          <Image
+            src="/haruna.jpeg"
+            alt="Project 6"
+            width={200}
+            height={200}
+            className="rounded-lg"
+          />
+          <h3>Project 5</h3>
+          <p className="px-4 py-2 ">Description of project 5</p>
+          <p className="flex gap-2">
+            <span>React</span> <span>Next.js</span>
+          </p>
+          <p className="flex gap-2">
+            <span>GitHub</span> <span>Live</span>
+          </p>
+        </div>
+        <div className="p-4  bg-gray-200 text-gray-800 rounded">
+          <Image
+            src="/haruna.jpeg"
+            alt="Project 6"
+            width={200}
+            height={200}
+            className="rounded-lg"
+          />
+          <h3>Project 6</h3>
+          <p className="px-4 py-2 ">Description of project 6</p>
+          <p className="flex gap-2">
+            <span>React</span> <span>Next.js</span>
+          </p>
+          <p className="flex gap-2">
+            <span>GitHub</span> <span>Live</span>
+          </p>
+        </div>
+      </div>
+      <footer className="bg-gray-800 text-white p-6 w-full mt-12 flex justify-center items-center align-center">
+        <div className="flex justify-between items-center">
+          <p>
+            &copy; {new Date().getFullYear()} My Portfolio. All rights reserved.
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
