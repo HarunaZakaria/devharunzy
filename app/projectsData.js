@@ -1,6 +1,6 @@
 const projectsData = [
   {
-    id: Date.now() + 1,
+    id: crypto.randomUUID(),
     title: "Project 1",
     image: "/haruna.jpeg",
     description: "Description of project 1",
@@ -8,7 +8,7 @@ const projectsData = [
     links: ["GitHub", "Live"],
   },
   {
-    id: Date.now() + 2,
+    id: crypto.randomUUID(),
     title: "Project 2",
     image: "/haruna.jpeg",
     description: "Description of project 2",
@@ -16,7 +16,7 @@ const projectsData = [
     links: ["GitHub", "Live"],
   },
   {
-    id: Date.now() + 3,
+    id: crypto.randomUUID(),
     title: "Project 3",
     image: "/haruna.jpeg",
     description: "Description of project 3",

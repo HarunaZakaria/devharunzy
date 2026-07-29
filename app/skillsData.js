@@ -1,6 +1,6 @@
 const skills = [
   {
-    id: 1,
+    id: crypto.randomUUID(),
     name: "Frontend Dev",
     tools: [
       { name: "React", level: "93%" },
@@ -14,7 +14,7 @@ const skills = [
     ],
   },
   {
-    id: 2,
+    id: crypto.randomUUID(),
     name: "Backend Dev",
 
     tools: [
@@ -25,7 +25,7 @@ const skills = [
     ],
   },
   {
-    id: 3,
+    id: crypto.randomUUID(),
     name: "Version Control",
     tools: [
       { name: "Git", level: "90%" },
@@ -33,7 +33,7 @@ const skills = [
     ],
   },
   {
-    id: 4,
+    id: crypto.randomUUID(),
     name: "Deployment",
     tools: [
       { name: "Netlify", level: "97%" },
