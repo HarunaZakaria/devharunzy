@@ -3,7 +3,10 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <div className="about-me flex justify-between w-full mt-12 mb-24 flex-wrap items-center align-center gap-4">
+      <div
+        id="about"
+        className="about-me flex justify-between w-full mt-12 mb-24 flex-wrap items-center align-center gap-4"
+      >
         <div className="about-text  flex  justify-between w-full about-me-container ">
           <div className="w-1/2 flex flex-col justify-center items-center align-center gap-4">
             <h2 className="text-2xl font-bold mb-4 about-me-title">
