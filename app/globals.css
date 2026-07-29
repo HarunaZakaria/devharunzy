@@ -39,11 +39,19 @@ body {
     padding: 3px;
     margin: auto;
   }
-  .hi {
+  .hi,
+  .about-me-title {
     width: 300px;
     margin: auto;
   }
-  .about-me {
+  .about-me-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-me,
+  .about-me-description {
     width: 300px;
     margin: auto;
   }
