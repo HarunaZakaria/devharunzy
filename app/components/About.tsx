@@ -3,9 +3,9 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <div className="about-me flex justify-between w-full mt-12 mb-24">
-        <div className="about-text  flex  justify-between w-full">
-          <div className="w-1/2 flex flex-col justify-center">
+      <div className="about-me flex justify-between w-full mt-12 mb-24 flex-wrap items-center align-center gap-4">
+        <div className="about-text  flex  justify-between w-full ">
+          <div className="w-1/2 flex flex-col justify-center items-center align-center gap-4">
             <h2 className="text-2xl font-bold mb-4">
               Crafting interfaces with intent.
             </h2>
@@ -23,7 +23,7 @@ const About = () => {
               juniors, or exploring the intersection of design and engineering.
             </p>
           </div>
-          <div className=" flex justify-center items-center align-center gap-4 mb-12">
+          <div className=" flex justify-center items-center align-center gap-4 mb-12 flex-wrap">
             <div>
               <p className="text-lg mb-4 border-2 border-gray-300 rounded-lg p-4">
                 5 +{" "}

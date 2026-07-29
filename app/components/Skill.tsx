@@ -7,7 +7,7 @@ const Skill = () => {
       {skillsData.map((skillData) => (
         <div
           key={skillData.id}
-          className="m-4 p-4  bg-gray-200 text-gray-800 rounded "
+          className="m-4 p-4  bg-gray-200 text-gray-800 rounded text-center shadow-md"
         >
           <h3 className="font-bold">{skillData.name}</h3>
           {skillData.tools.map((tool) => (
