@@ -7,10 +7,10 @@ const highlights = [
 ];
 
 const stats = [
-  { value: "5+", label: "years building for the web" },
-  { value: "30+", label: "products shipped" },
+  { value: "4+", label: "years building for the web" },
+  { value: "10+", label: "products shipped" },
   { value: "40+", label: "client collaborations" },
-  { value: "100%", label: "focus on thoughtful UX" },
+  { value: "100%", label: "focus on thoughtful frontend engineering" },
 ];
 
 const About = () => {
@@ -31,11 +31,6 @@ const About = () => {
             I help ambitious brands turn rough ideas into polished digital
             experiences. My work sits at the intersection of product thinking,
             visual design, and modern frontend engineering.
-          </p>
-          <p className="text-lg leading-8 text-slate-300">
-            Whether I&apos;m refining a landing page, building a design system,
-            or shaping a dashboard workflow, I focus on clarity, momentum, and
-            craft that feels effortless to users.
           </p>
           <ul className="grid gap-3 pt-2 sm:grid-cols-2">
             {highlights.map((item) => (

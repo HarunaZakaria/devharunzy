@@ -29,7 +29,7 @@ const Contact = () => {
               href="mailto:hello@harunzy.dev"
               className="mt-3 block text-xl font-semibold text-white transition hover:text-sky-300"
             >
-              hello@harunzy.dev
+              zakariaharuna96@gmail.com
             </a>
             <p className="mt-4 text-sm leading-7 text-slate-400">
               Remote-friendly for freelance engagements, product partnerships,

@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="max-w-2xl space-y-6">
           <div className="inline-flex items-center rounded-full border border-sky-400/30 bg-sky-500/10 px-4 py-2 text-sm font-medium text-sky-200">
             <span className="mr-2 h-2.5 w-2.5 rounded-full bg-sky-400" />
-            Available for select freelance and product work
+            Available for new opportunities.
           </div>
 
           <div className="space-y-4">
@@ -47,25 +47,25 @@ const Hero = () => {
               Next.js
             </span>
             <span className="rounded-full border border-white/10 px-3 py-1">
-              UI systems
+              Systems Design
             </span>
           </div>
 
           <div className="flex flex-wrap gap-4 pt-2">
             <a
-              href="https://github.com/harunzy"
+              href="https://github.com/HarunaZakaria"
               className="text-slate-300 transition hover:text-white"
             >
               <i className="ph ph-github-logo text-2xl" />
             </a>
             <a
-              href="https://linkedin.com/in/harunzy"
+              href="https://www.linkedin.com/in/zakaria-haruna-b897241b6"
               className="text-slate-300 transition hover:text-white"
             >
               <i className="ph ph-linkedin-logo text-2xl" />
             </a>
             <a
-              href="https://facebook.com/harunzy"
+              href="https://www.facebook.com/profile.php?id=61559997654133"
               className="text-slate-300 transition hover:text-white"
             >
               <i className="ph ph-facebook-logo text-2xl" />
