@@ -5,7 +5,7 @@ const projectsData = [
     image: "/qrcode-project.png",
     description:
       "A simple and intuitive QR code generator that allows users to create custom QR codes for various purposes.",
-    technologies: ["Next.js", "Tailwind", "QRCode API"],
+    technologies: ["Next.js", "TypeScript", "QRCode API"],
     links: [
       { label: "Preview", url: "https://nextjs-murex-five-68.vercel.app/" },
       {
@@ -20,7 +20,7 @@ const projectsData = [
     image: "/movies.png",
     description:
       "A movie discovery app that allows users to browse and search for movies, view details, and watch trailers.",
-    technologies: ["React", "TypeScript", "TMDB API"],
+    technologies: ["React", "Tailwind CSS", "TMDB API"],
     links: [
       { label: "Preview", url: "https://moviecentre.netlify.app/" },
       { label: "Repo", url: "https://github.com/HarunaZakaria/usepopcorn" },
