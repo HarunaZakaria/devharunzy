@@ -1,27 +1,40 @@
 const projectsData = [
   {
-    id: crypto.randomUUID(),
-    title: "Project 1",
+    id: "aurora-commerce",
+    title: "Aurora Commerce",
     image: "/haruna.jpeg",
-    description: "Description of project 1",
-    technologies: ["React", "Next.js"],
-    links: ["GitHub", "Live"],
+    description:
+      "A premium storefront experience with modular product storytelling, conversion-focused flows, and a refined mobile-first interface.",
+    technologies: ["Next.js", "Tailwind", "Stripe"],
+    links: [
+      { label: "Preview", url: "https://example.com" },
+      { label: "Case study", url: "#projects" },
+    ],
   },
   {
-    id: crypto.randomUUID(),
-    title: "Project 2",
+    id: "lumen-dashboard",
+    title: "Lumen Dashboard",
     image: "/haruna.jpeg",
-    description: "Description of project 2",
-    technologies: ["React", "Next.js"],
-    links: ["GitHub", "Live"],
+    description:
+      "A data-rich product dashboard designed to make complex reporting feel calm, readable, and actionable for users.",
+    technologies: ["React", "TypeScript", "Charts"],
+    links: [
+      { label: "Preview", url: "https://example.com" },
+      { label: "Repo", url: "https://github.com" },
+    ],
   },
   {
-    id: crypto.randomUUID(),
-    title: "Project 3",
+    id: "northstar-studio",
+    title: "Northstar Studio",
     image: "/haruna.jpeg",
-    description: "Description of project 3",
-    technologies: ["React", "Next.js"],
-    links: ["GitHub", "Live"],
+    description:
+      "A bold marketing site for a creative studio that needed fast loading, a strong narrative, and stronger lead generation.",
+    technologies: ["Next.js", "Framer", "SEO"],
+    links: [
+      { label: "Preview", url: "https://example.com" },
+      { label: "Details", url: "#contact" },
+    ],
   },
 ];
+
 export default projectsData;
