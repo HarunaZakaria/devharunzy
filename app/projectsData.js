@@ -1,38 +1,41 @@
 const projectsData = [
   {
-    id: "aurora-commerce",
-    title: "Aurora Commerce",
-    image: "/haruna.jpeg",
+    id: "qr-code-generator",
+    title: "QR Code Generator",
+    image: "/qrcode-project.png",
     description:
-      "A premium storefront experience with modular product storytelling, conversion-focused flows, and a refined mobile-first interface.",
-    technologies: ["Next.js", "Tailwind", "Stripe"],
+      "A simple and intuitive QR code generator that allows users to create custom QR codes for various purposes.",
+    technologies: ["Next.js", "Tailwind", "QRCode API"],
     links: [
-      { label: "Preview", url: "https://example.com" },
-      { label: "Case study", url: "#projects" },
+      { label: "Preview", url: "https://nextjs-murex-five-68.vercel.app/" },
+      {
+        label: "Repo",
+        url: "https://github.com/HarunaZakaria/Nextjs/tree/main/qreate",
+      },
     ],
   },
   {
-    id: "lumen-dashboard",
-    title: "Lumen Dashboard",
-    image: "/haruna.jpeg",
+    id: "usepopcorn",
+    title: "UsePopcorn",
+    image: "/movies.png",
     description:
-      "A data-rich product dashboard designed to make complex reporting feel calm, readable, and actionable for users.",
-    technologies: ["React", "TypeScript", "Charts"],
+      "A movie discovery app that allows users to browse and search for movies, view details, and watch trailers.",
+    technologies: ["React", "TypeScript", "TMDB API"],
     links: [
-      { label: "Preview", url: "https://example.com" },
-      { label: "Repo", url: "https://github.com" },
+      { label: "Preview", url: "https://moviecentre.netlify.app/" },
+      { label: "Repo", url: "https://github.com/HarunaZakaria/usepopcorn" },
     ],
   },
   {
-    id: "northstar-studio",
-    title: "Northstar Studio",
-    image: "/haruna.jpeg",
+    id: "far-away",
+    title: "Far Away",
+    image: "/faraway.png",
     description:
-      "A bold marketing site for a creative studio that needed fast loading, a strong narrative, and stronger lead generation.",
-    technologies: ["Next.js", "Framer", "SEO"],
+      "A travelling app that allow uses to pack their bags and explore the world with ease. it gives them the chance to check the items they need to pack for their trip and also check the weather of the place they are travelling to.",
+    technologies: ["React", "Tailwind CSS"],
     links: [
-      { label: "Preview", url: "https://example.com" },
-      { label: "Details", url: "#contact" },
+      { label: "Preview", url: "https://farawa-y.netlify.app/" },
+      { label: "Repo", url: "https://github.com/HarunaZakaria/travel" },
     ],
   },
 ];
