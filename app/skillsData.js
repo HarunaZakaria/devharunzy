@@ -21,17 +21,17 @@ const skills = [
   //     { name: "UX strategy", level: "84%" },
   //   ],
   // },
-  {
-    id: "backend",
-    name: "Backend & APIs",
-    subtitle: "Reliable logic",
-    tools: [
-      { name: "Node.js", level: "86%" },
-      { name: "Express", level: "82%" },
-      { name: "MongoDB", level: "83%" },
-      { name: "PostgreSQL", level: "79%" },
-    ],
-  },
+  // {
+  //   id: "backend",
+  //   name: "Backend & APIs",
+  //   subtitle: "Reliable logic",
+  //   tools: [
+  //     { name: "Node.js", level: "86%" },
+  //     { name: "Express", level: "82%" },
+  //     { name: "MongoDB", level: "83%" },
+  //     { name: "PostgreSQL", level: "79%" },
+  //   ],
+  // },
   {
     id: "delivery",
     name: "Delivery & deployment",
