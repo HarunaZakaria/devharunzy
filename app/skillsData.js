@@ -10,17 +10,17 @@ const skills = [
       { name: "Tailwind CSS", level: "95%" },
     ],
   },
-  {
-    id: "product",
-    name: "Product thinking",
-    subtitle: "Systems",
-    tools: [
-      { name: "Design systems", level: "91%" },
-      { name: "Accessibility", level: "87%" },
-      { name: "Performance", level: "89%" },
-      { name: "UX strategy", level: "84%" },
-    ],
-  },
+  // {
+  //   id: "product",
+  //   name: "Product thinking",
+  //   subtitle: "Systems",
+  //   tools: [
+  //     { name: "Design systems", level: "91%" },
+  //     { name: "Accessibility", level: "87%" },
+  //     { name: "Performance", level: "89%" },
+  //     { name: "UX strategy", level: "84%" },
+  //   ],
+  // },
   {
     id: "backend",
     name: "Backend & APIs",
